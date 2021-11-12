@@ -1,7 +1,6 @@
 package com.java.homework6;
 
 public class Main {
-    public static final int MY_CONST = 0;
     private static boolean isEnoughPetrolLevel;
 
     public static void main(String[] args) {
@@ -13,7 +12,4 @@ public class Main {
         System.out.println("Car1: Engine started!");
         System.out.println(isEnoughPetrolLevel);
     }
-
-
-
 }

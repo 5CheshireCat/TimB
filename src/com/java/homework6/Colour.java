@@ -7,5 +7,4 @@ public enum Colour {
     Colour (String code){
         this.code=code;
     }
-
 }

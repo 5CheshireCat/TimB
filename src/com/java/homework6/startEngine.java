@@ -16,7 +16,7 @@ public class startEngine {
     }
 
     public boolean isEnoughPetrolLevel() {
-        boolean PetrolLevel = true || false;
+        boolean PetrolLevel = true;
         int isEnoughPetrolLevel = 100;
 
         if (isEnoughPetrolLevel > 50) {
@@ -28,5 +28,3 @@ public class startEngine {
         return PetrolLevel;
     }
 }
-
-
