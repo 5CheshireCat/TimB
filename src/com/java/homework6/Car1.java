@@ -1,7 +1,7 @@
 package com.java.homework6;
 
 public class Car1 {
-    public static com.java.homework6.startEngine startEngine;
+    public static startEngine startEngine;
     private String manufacturer;
     private String engine;
     private Colour colour;
