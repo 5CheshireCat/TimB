@@ -1,6 +1,6 @@
 package com.java.homework6;
 
-public class Car2 {
+class Car2 {
     private String manufacturer;
     private String engine;
     private Colour colour;

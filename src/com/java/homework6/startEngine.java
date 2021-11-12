@@ -1,6 +1,6 @@
 package com.java.homework6;
 
-public class startEngine {
+class startEngine {
     private boolean isRunning;
 
     public void start() {
