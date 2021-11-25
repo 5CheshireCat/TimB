@@ -1,15 +1,12 @@
 package homework8;
 
-import org.junit.After;
+import com.homework8.Hw8Task1;
 import org.junit.Before;
 import org.junit.Test;
-import org.mockito.Mock;
 import org.mockito.Mockito;
 
-import static org.junit.Assert.*;
-
 public class Hw8Task1Test2 {
-    private Hw8Task1 target;
+    private com.homework8.Hw8Task1 target;
     private Hw8Task1 hw8Task1;
     private Object Hw8Task1;
 

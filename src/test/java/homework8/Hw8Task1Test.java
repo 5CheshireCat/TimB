@@ -1,11 +1,9 @@
 package homework8;
 
+import com.homework8.Hw8Task1;
 import org.junit.Assert;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class Hw8Task1Test {
 

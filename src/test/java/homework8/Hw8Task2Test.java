@@ -1,6 +1,6 @@
 package homework8;
 
-import homework3.Hw3Task2;
+import com.homework3.Hw3Task2;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
