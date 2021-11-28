@@ -1,33 +1,28 @@
 package homework8;
 
-import com.homework3.Hw3Task2;
-import org.junit.Assert;
+import com.homework8.Hw8Task1;
+import com.homework8.Hw8Task2;
+import com.sun.tools.javac.Main;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
+import org.mockito.Mockito;
 
 public class Hw8Task2Test {
-    private Hw3Task2 hw8Task2;
+    private com.homework8.Hw8Task2 target;
+    private Object Hw8Task2;
+    private com.homework8.Hw8Task2 hw8Task2;
+    private Object thenReturn;
+
 
     @Before
     public void setUp() throws Exception {
-        hw8Task2 = new Hw3Task2();
+        target = new Hw8Task2();
+        Hw8Task2 = Mockito.mock(Hw8Task2.class);
     }
-
     @Test
-    public void main() {
-        final int expected = 5;
-        final int actual = 5;
-        Assert.assertEquals(expected, actual);
-    }
-
-    @Test
-    public void main2() {
-        final int expected = 5;
-        final int actual = 5;
-        Assert.assertEquals(expected, actual);
-        fail();
+    public void Calculator() {
+        Main mainmock = Mockito.mock(Main.class);
+        Mockito.when(Hw8Task2.equals(target.getClass())).thenReturn((Boolean) Hw8Task2);
     }
 
 }

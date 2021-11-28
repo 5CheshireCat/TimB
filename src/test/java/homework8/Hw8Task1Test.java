@@ -6,7 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class Hw8Task1Test {
-
+    final Calculator calc = new Calculator();
     private Hw8Task1 hw8Task1;
 
     @Before
@@ -15,17 +15,32 @@ public class Hw8Task1Test {
     }
 
     @Test
-    public void sum_positiveNumbers() {
-        int expected = 55251;
-        int actual = 55251;
+    public void positiveNumbers() {
+        int given = 12;
+        int expected = 12;
+        int actual = calc.sumOfDigits(given);
         Assert.assertEquals(expected, actual);
     }
 
     @Test
-    public void sum_positiveNumbers2() {
-        final int expected = 55251;
-        final int actual = hw8Task1.sum++;
+    public void sumOfNumbers() {
+        int given = 000001;
+        int expected = 999999;
+
+        int actual = calc.sumOfDigits(given);
         Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void negativeNumber() {
+        int given = -9;
+        calc.sumOfDigits(given);
+    }
+
+    private class Calculator {
+        public int sumOfDigits(int given) {
+            return given;
+        }
     }
 
 }
