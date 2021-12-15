@@ -1,6 +1,5 @@
-package com.java.homework3;
+package com.homework3;
 
-import java.util.Random;
 import java.util.Scanner;
 
 import static java.lang.System.out;

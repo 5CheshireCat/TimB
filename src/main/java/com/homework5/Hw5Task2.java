@@ -1,7 +1,6 @@
-package com.java.homework5;
+package com.homework5;
 
 import java.util.Arrays;
-import java.util.Random;
 
 public class Hw5Task2 {
     public static void main(String[] args) {

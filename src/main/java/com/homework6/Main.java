@@ -1,4 +1,4 @@
-package com.java.homework6;
+package com.homework6;
 
 public class Main {
     private static boolean isEnoughPetrolLevel;

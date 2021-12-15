@@ -1,6 +1,5 @@
-package com.java.homework3;
+package com.homework3;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class Hw3Task1 {

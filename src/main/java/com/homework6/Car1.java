@@ -1,6 +1,7 @@
-package com.java.homework6;
+package com.homework6;
 
-public class Car2 {
+public class Car1 {
+    public static startEngine startEngine;
     private String manufacturer;
     private String engine;
     private Colour colour;
@@ -11,7 +12,7 @@ public class Car2 {
     }
 
     public void setManufacturer(String manufacturer) {
-        this.manufacturer = manufacturer;
+        this.manufacturer = "Germany";
     }
 
     public String getEngine() {
@@ -19,7 +20,7 @@ public class Car2 {
     }
 
     public void setEngine(String engine) {
-        this.engine = engine;
+        this.engine = "3.0";
     }
 
     public Colour getColour() {
@@ -27,7 +28,7 @@ public class Car2 {
     }
 
     public void setColour(Colour colour) {
-        this.colour = colour;
+        this.colour = Colour.ORANGE;
     }
 
     public String getPetrol() {
@@ -35,16 +36,16 @@ public class Car2 {
     }
 
     public void setPetrol(String petrol) {
-        this.petrol = petrol;
+        this.petrol = "A-95";
     }
 
     @Override
     public String toString() {
-        return "Car2{" +
-                "manufacturer = USA" +
-                ", engine = 3.2" +
-                ", colour = GREEN" +
-                ", petrol = A-98" +
+        return "Car1{" +
+                "manufacturer = Germany" +
+                ", engine = 3.0" +
+                ", colour = ORANGE" +
+                ", petrol = A-95" +
                 '}';
     }
 }

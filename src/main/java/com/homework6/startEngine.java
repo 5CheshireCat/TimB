@@ -1,4 +1,4 @@
-package com.java.homework6;
+package com.homework6;
 
 public class startEngine {
     private boolean isRunning;
